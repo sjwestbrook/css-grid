@@ -70,6 +70,20 @@ img {
   grid-gap: 20px;
   grid-template-areas: 
     'showcase showcase top-box-a'
-    'showcase showcase top-box b';
-  
+    'showcase showcase top-box b';  
+}
+
+/* Showcase */
+.showcase {
+  grid-area: showcase; 
+  min-height: 400px;
+  background: url(https://image.ibb.co/kYJK8x/showcase.jpg);
+}
+
+.top-box-a {
+  grid-area: top-box-a; 
+}
+
+.top-box-b {
+  grid-area: top-box-b; 
 }
