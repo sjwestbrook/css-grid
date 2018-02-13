@@ -58,3 +58,11 @@ img {
   box-shadow: var(--shadow);
 }
 
+.main-nav a:hover {
+  background: var(--dark);
+  color: var(--light);
+}
+
+
+/* Top Container */
+
